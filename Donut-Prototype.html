@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Donat</title>
+        <link rel="stylesheet" href="styles/Donut-Prototype.css">
+        <link rel="stylesheet" href="styles/DP-container-1.css">
+        <link rel="stylesheet" href="styles/DP-container-2.css">
+        <link rel="stylesheet" href="styles/DP-container-3.css">
+        <link rel="stylesheet" href="styles/DP-container-4.css">
+    </head>
+    <body>
+        <main class="main">
+            <div class="container-1">
+                <div class="top-border"></div>
+                <img class="choc-drip" src="images/chocdrip.png" alt="chocdrip">
+
+                <header class="container-1-head">
+                    <div class="company-owner">
+                        <div>STA. MESA MANILA, EST. 2025</div>
+                        <div class="section">GROUP 5 — DIT 1-6</div>
+                    </div>
+                    <div class="icon-1"><img src="images/search-button.png" alt=""></div>
+                    <div class="icon-2"><img src="images/shop-button.png" alt=""></div>
+                    <div class="icon-3"><img src="images/burger-button.png" alt=""></div>
+                </header>
+                <div class="container-1-logos">
+                    <img class="m-logo" src="images/donut-logo.png" alt="">
+                    <div class="container-1-left-logos">
+                        <div class="company-name"><p>Mind Your Own</p><p>Mini Munch</p></div>
+                        <div class="company-description"><p>Mind Your Own Mini Munch is a Mini Donut</p><p>“Just for You, made by You” a treat for your</p><p>endeavors in life fitted to your needs</p></div>
+                        <div class="div-order"><button class="back-order-button">ORDER</button></div>
+                    </div>
+                </div>
+                <div class="container-1-picture">
+                    <img class="border-top" src="images/border-top.png" alt="border-top" />
+                    <img class="background-donut" src="images/donut-bg.jpg" alt="donuts-bg">
+                    <div class="pantakip"></div>
+                    <img class="bottom-border" src="images/bottom-border.png" alt="" />
+                </div>
+
+            </div>
+
+
+
+            <div class="container-2">
+                <div class="how-many">How Many mini-donuts you want</div>
+                <div class="pieces-option">
+                    <div>
+                        <p class="option">HALF DOZEN</p>
+                        <button class="pieces" onclick="
+                        limitDonutList(12);
+                        ">12 Pcs</button>
+                    </div>
+                    <div>
+                        <p class="option">FULL DOZEN</p>
+                        <button class="pieces" onclick="
+                        limitDonutList(6);
+                        ">6 Pcs</button>
+                    </div>
+                </div>
+                
+                
+                
+                <div>
+                    <div class="js-pcs-donut-display"></div>
+                </div> 
+                
+                <img class="green-border" src="images/green-border.png" alt="green-border">
+                <img class="matcha-donut" src="images/matcha-donut.png" alt="matcha-donut">
+                <img class="choco-donut" src="images/choco-donut.png" alt="choco-donut">
+                <img class="straw-donut" src="images/straw-donut.png" alt="straw-donut">
+                <img class="white-donut-1" src="images/white-donut-1.png" alt="white-donut-1">
+                <img class="white-donut-2" src="images/white-donut-2.png" alt="white-donut-2">
+                <img class="ube-donut" src="images/ube-donut.png" alt="ube-donut">
+            </div>
+
+
+
+            <div class="container-3">
+                <img class="violet-border" src="images/violet-border.png" alt="violet-border">
+                <img class="blue-border" src="images/blue-border.png" alt="blue-border">
+                <div class="topings-and-flavors">
+                    <h1 class="flavors-label">Flavors</h1>
+                    <div class="div-fla">
+                        <div>
+                            <button onclick="
+                            pickFlavor('js-choco-flavor');
+                            "><img src="images/chocolate-flavor.png" alt="chocolate-flavor"></button>
+                            <p class="js-choco-flavor">CHOCOLATE</p>
+                        </div>
+                        <div>
+                            <button onclick="
+                            pickFlavor('js-white-flavor');
+                            "><img src="images/white-flavor.png" alt="white-flavor"></button>
+                            <p class="js-white-flavor">WHITE CHOCO</p>
+                        </div>
+                        <div>
+                            <button onclick="
+                            pickFlavor('js-matcha-flavor');
+                            "><img src="images/matcha-flavor.png" alt="matcha-flavor"></button>
+                            <p class="js-matcha-flavor">MATCHA</p>
+                        </div>
+                        <div>
+                            <button onclick="
+                            pickFlavor('js-strawberry-flavor');
+                            "><img src="images/straw-flavor.png" alt="straw-flavor"></button>
+                            <p class="js-strawberry-flavor">STRAWBERRY</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Toppings-->
+
+                <div class="topings-and-flavors">
+                    <h1 class="topings-label">Toppings</h1>
+                    <div class="div-topp">
+                        <div>
+                            <button onclick="
+                            pickToppings('js-sprinkles-flavor');
+                            "><img src="images/sprinkles-toppings.png" alt="sprinkles-toppings"></button>
+                            <p class="js-sprinkles-flavor">SPRINKLES</p>
+                        </div>
+                        <div>
+                            <button onclick="
+                            pickToppings('js-oreo-flavor');
+                            "><img src="images/oreo-toppings.png" alt="oreo-toppings"></button>
+                            <p class="js-oreo-flavor">OREO</p>
+                        </div>
+                        <div>
+                            <button onclick="
+                            pickToppings('js-choco-chips-flavor');
+                            "><img src="images/chip-toppings.png" alt="chip-toppings"></button>
+                            <p class="js-choco-chips-flavor">CHOCO CHIPS</p>
+                        </div>
+                        <div>
+                            <button onclick="
+                            pickToppings('js-mallows-flavor');
+                            "><img src="images/mallow-toppings.png" alt="mallow-toppings"></button>
+                            <p class="js-mallows-flavor">MALLOWS</p>
+                        </div>
+                    </div>
+                    <div class="topings-and-flavors">
+                        <button class="add-button" onclick="
+                        addThem();
+                        ">Add</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container-4">
+                <div class="sub-container-4">
+                    <div class="order-section">
+                        <div class="your-order">Your Order</div>
+                        <div class="list-box"><div class="list-html-div js-donut-list"></div></div>
+                    </div>
+                    <div class="payment-section">
+                        <div>
+                            <h1><u>&#x20B1; 1000.00</u></h1>
+                        </div>
+                        <div class="mode-p">
+                            <p>Mode of Payment</p>
+                            <div class="trio">
+                                <div><img src="images/gcash.png" alt="gcash"></div>
+                                <div><img src="images/paypal.png" alt="paypal"></div>
+                                <div><img src="images/paymaya.png" alt="paymaya"></div>
+                            </div>
+                        </div>
+                        <p class="apc">Address & Personal Contact</p>
+                    </div>
+                </div>
+
+                
+                <!-- <div class="js-result-donut"></div>  -->
+            </div>
+        </main>
+        
+        <script src="scripts/Donut-Prototype.js"></script>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+.sub-container-4 {
+    display: grid;
+    grid-template-columns: 1fr 550px;
+    margin-top: 120px;
+}
+
+.order-section {
+    position: relative;
+}
+
+.your-order {
+    color: white;
+    font-family: fredoka;
+    font-size: 80px;
+    font-weight: 700;
+    position: absolute;
+    left: 40px;
+}
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;  
+}
+
+.payment-section h1, .payment-section p {
+    color: white;
+    font-family: fredoka;
+    font-weight: 700;
+}
+
+.payment-section h1 {
+    font-size: 80px;
+    font-style: oblique;
+}
+
+.mode-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.mode-p p {
+    font-size: 40px;
+}
+
+.trio {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.trio img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.apc {
+    font-size: 30px;
+}
+
+.list-box {
+    height: 600px;
+    width: 700px;
+    background-color: #e2842e;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    border: solid black 2px;
+    border-radius: 80px;
+}
+
+.list-html-div {
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.list-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.list-div button {
+    z-index: 90;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.label-list {
+    font-size: 26px;
+    color: white;
+}
+
+.button-divs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}

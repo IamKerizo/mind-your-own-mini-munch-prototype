@@ -1,0 +1,90 @@
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.blue-border {
+    position: absolute;
+    width: 1358px;
+    bottom:0px;
+    z-index: 4;
+}
+
+.violet-border {
+    position: absolute;
+    width: 1355px;
+    bottom:-680px;
+    z-index: 4;
+}
+
+.topings-and-flavors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topings-and-flavors h1 {
+    font-size: 60px;
+    font-family: fredoka;
+    font-weight: bold;
+}
+
+.flavors-label {
+    color: #be5641;
+    margin-top: 30px;
+}
+
+.topings-label {
+    color: #411f69;
+    margin-top: 210px;
+}
+
+.div-fla, .div-topp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 70px;
+}
+
+.div-fla button, .div-topp button {
+    background-color: #cd9c6d;
+    border: none;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    z-index: 90;
+}
+
+.div-fla div, .div-topp div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-fla p, .div-topp p {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #411f69;
+    font-weight: 600;
+}
+
+.div-fla img, .div-topp img {
+    width: 200px;
+}
+
+.add-button {
+    background-color: #cd9c6d;
+    width: 300px;
+    border: none;
+    border-radius: 40px;
+    height: 80px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    color: white;
+    z-index: 90;
+}

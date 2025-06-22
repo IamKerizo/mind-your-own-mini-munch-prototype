@@ -1,0 +1,104 @@
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.pieces-option {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 450px;
+}
+
+.how-many {
+  margin-top: 80px;
+  color: white;
+  font-family: fredoka;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.pieces-option div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  color: white;
+  font-family: fredoka;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.pieces {
+  width: 580px;
+  height: 53px;
+  background-color: #ABC74E;
+  box-shadow: -15px 15px #5d7020;
+  border-radius: 30px;
+  border: none;
+  
+  color: white;
+  font-size: 30px;
+  font-family: fredoka;
+  font-weight: bold;
+  z-index: 90;
+}
+
+.green-border {
+  width: 1357px;
+  position: absolute;
+  top: -220px;
+}
+
+.matcha-donut, 
+.choco-donut, 
+.straw-donut,
+.white-donut-1,
+.white-donut-2,
+.ube-donut {
+  width: 220px;
+  position: absolute;
+}
+
+.matcha-donut {
+  top: -115px;
+  right: 345px;
+}
+
+.choco-donut {
+  top: -80px;
+  left: 230px;
+  width: 170px;
+}
+
+.straw-donut {
+  left: -70px;
+  top: 130px;
+  width: 180px;
+}
+
+.white-donut-1 {
+  bottom:90px;
+  width: 160px;
+  right: 610px;
+}
+
+.white-donut-2 {
+  bottom:240px;
+  width: 180px;
+  right: -80px;
+}
+
+.ube-donut {
+  bottom:70px;
+  width: 140px;
+  right: 240px;
+}
+
+
+

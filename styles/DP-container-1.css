@@ -1,0 +1,162 @@
+.top-border {
+    width: 1fr;
+    height: 20px;
+    background-color: #451f00;
+}
+
+.choc-drip {
+    width: 730px;
+    position: absolute;
+    left: -30px;
+    top: -475px;
+}
+
+.container-1-head {
+    width: 1fr;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.company-owner {
+    width: 300px;
+    height: 1fr;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-owner div {
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.icon-1, .icon-2, .icon-3 {
+    width: 100px;
+    height: 1fr;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-1 img, .icon-2 img, .icon-3 img {
+    width: 65px;
+}
+
+
+.container-1-logos {
+    width: 1fr;
+    height: 450px;
+
+    position: relative;
+}
+
+.m-logo {
+    width: 650px;
+    position: absolute;
+    top: -160px;
+    left: 8px;
+}
+
+.container-1-left-logos {
+    width: 1fr;
+    height: 430px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.company-name, .company-description {
+    width: 700px;
+    height: 160px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.company-name p {
+    font-size: 70px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.company-description p {
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.div-order {
+    width: 700px;
+    height: 100px;
+
+    position: relative;
+}
+
+.back-order-button {
+    background-color: #E2842E;
+    width: 290px;
+    height: 60px;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+    border: solid black 2px;
+    box-shadow: -15px 15px #994E0A;
+    
+    position: absolute;
+    top: -25px;
+    right: 200px;
+    
+    z-index: 100;
+}
+
+.container-1-picture {
+    width: 1fr;
+    height: 450px;
+
+    position: relative;
+}
+
+.border-top {
+    width: 1360px;
+    left: -11px;
+    top: -730px;
+    position: absolute;
+    z-index: 3;
+}
+
+.background-donut {
+    width: 1348px;
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+}
+
+.pantakip {
+    background-color: #7d5ca4;
+    height: 90px;
+    width: 180px;
+    position: absolute;
+    left: 350px;
+    bottom: -45px;
+    z-index: 2;
+}
+
+.bottom-border {
+    width: 1390px;
+    left: -20px;
+    top: -295px;
+    position: absolute;
+    z-index: 2;
+}
+

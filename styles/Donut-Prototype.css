@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    height: 4000px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 {
+    background-color: #7d5ca4;
+    width: 1350px;
+    height: 1000px;
+
+    position: relative;
+}
+
+.container-2 {
+    background-color: #7d5ca4;
+    width: 1350px;
+    height: 500px;
+    z-index: 4;
+}
+
+.container-3 {
+    background-color: #f1eff0;
+    width: 1350px;
+    height: 1200px;
+}
+
+.container-4 {
+    background-color: #549bad;
+    width: 1350px;
+    height: 1300px;
+}
+
